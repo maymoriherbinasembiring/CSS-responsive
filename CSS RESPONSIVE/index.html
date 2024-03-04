@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BEDOW NG</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Montserrat&family=Oswald:wght@200;400&family=Sedgwick+Ave+Display&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="hero">
+        <h2 class="heading">WPU Merc Shop</h2>
+        <p class="sub-heading">hoodie and t-shirt</p>
+      </div>
+
+      <div class="features feature-1">
+        <h4 class="price">IDR 250k</h4>
+        <p class="item">Hoodie</p>
+      </div>
+
+      <div class="features feature-2">
+        <h4 class="price">IDR 150k</h4>
+        <p class="item">T-shirt</p>
+      </div>
+    </header>
+
+    <nav class="menu">
+      <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="brand">
+        <h1>WPUMerch</h1>
+      </div>
+      <ul class="menu-list">
+        <li><a href="">HOME</a></li>
+        <li><a href="">PRODUCT</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">GALLERY</a></li>
+
+      </ul>
+    </nav>
+
+
+
+<section class="services">
+  <div class="service">
+    <div class="icon">
+      <img src="src/hayden.jpg" alt="icon">
+    </div>
+    <h3>Tutorial</h3>
+    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, officiis debitis. Corrupti nobis repudiandae atque voluptas aut autem praesentium facere nulla ipsam eaque error porro facilis distinctio nam, exercitationem eligendi.</p>
+  </div>
+
+</section>
+
+
+  </div>
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle input');
+const nav = document.querySelector('nav ul');
+
+menuToggle.addEventListener('click', function() {
+    nav.classList.toggle('slide');
+})
+  </script>
+</body>
+
+</html>
